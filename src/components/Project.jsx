@@ -18,6 +18,7 @@ const Project = () => {
                             <span key = {index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm text-blue-700">{tech}</span>
                         ))}
                     </motion.div>
+                    <motion.a whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:0.5}} className="mb-4 bg-gradient-to-r from-blue-600 via-slate-300 to-blue-300 bg-clip-text tracking-tight text-transparent mt-8 mx-2" href={project.visit}>Visit This Project</motion.a>
                    </div> 
                 ))}
             </div>

@@ -1,8 +1,8 @@
 
 import Logo from '../assets/Logo.png'
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub, FaTiktok} from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
-import { FaTwitter} from 'react-icons/fa'
+
 
 const Navbar = () => {
   return (
@@ -11,9 +11,9 @@ const Navbar = () => {
             <img src={Logo} className='w-10 mx-2'/>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaGithub />
-            <FaInstagram />
-            <FaTwitter />
+          <a href='https://github.com/fathanjamilrises' className='hover:text-purple-500'><FaGithub/></a>
+            <a href="https://www.instagram.com/fthbnvc/" className='hover:text-pink-500'><FaInstagram /></a>
+            <a href="https://www.tiktok.com/@fathh.php" className='hover:text-blue-700'><FaTiktok /></a>
         </div>
     </nav>
   )

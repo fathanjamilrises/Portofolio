@@ -52,6 +52,8 @@ export const PROJECTS = [
     gambar: project1,
     deskripsi:
       "Aplikasi todo list sederhana dengan memakai javascript vanilla.",
+      visit : "https://to-do-list-simple-version-10.vercel.app/",
+      link : "Visit this Project",
     teknologi: ["HTML", "CSS", "JavaScript", "Bootsrap"],
   },
   {
@@ -59,6 +61,8 @@ export const PROJECTS = [
     gambar: project2,
     deskripsi:
       "Web landing page jurusan PPLG dibuat dengan framework Tailwindcss",
+      visit : "https://pplg-web-version1.vercel.app/",
+      link : "Visit this Project",
     teknologi: ["TailwindCSS", "JavaScript"],
   },
   {
@@ -66,6 +70,8 @@ export const PROJECTS = [
     gambar: project3,
     deskripsi:
       "Aplikasi CRUD sederhana menggunakan JavaScript Vanilla.",
+      visit : "https://crud-simple-ten.vercel.app/",
+      link : "Visit this Project",
     teknologi: ["TailwindCSS", "JavaScript"],
   },
   {
@@ -73,6 +79,8 @@ export const PROJECTS = [
     gambar: project4,
     deskripsi:
       "Web clone dari website donasi streamer yaitu Saweria menggunakan Tailwindcss.",
+      visit: "https://saweria-react.vercel.app/",
+      link : "Visit this Project",
     teknologi: ["TailwindCSS","React Js"],
   },
 ];
